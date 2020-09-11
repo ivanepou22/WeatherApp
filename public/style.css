@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #eceaea;
+  color: #707070;
+  margin: 0;
+  padding: 0;
+}
+.form-control{
+  font-family: 'Raleway', sans-serif;
+  color: black !important;
+  font-weight: 400;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.card-top{
+display: flex;
+align-content: center;
+text-align: center;
+}
+
+.card-top img{
+  width: 30vw; 
+  min-width: 250px; 
+  text-align: center;
+  margin: auto;
+  object-fit: contain;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 50px;
+}
+.search-loaction{
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-left: 29%;
+}
+
+.search-loaction input{
+  min-width: 38vw;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 100;
+  transition: 0.2s ease-out;
+  box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.58);
+}
+
+.card-body{
+  background-color: white;
+  width: 100% !important;
+  margin-top: -3vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.58);
+}
+.header{
+  display: flex;
+  text-align: left;
+  font-weight: 700;
+  padding-left: 20px;
+  background-color: rgb(8, 10, 117);
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.card-container{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+.footer{
+  display: flex;
+  position: sticky;
+  z-index: 100;
+  color: white;
+  font-style: italic;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 12px;
+  background-color: rgb(8, 10, 117);
+  bottom: 0;
+}
+.card-time{
+  font-size: 10pt;
+  background-color: rgb(8, 10, 117);
+  font-weight: bold;
+  color: white;
+  margin-left: 34.5vw;
+  margin-right: 34.5vw;
+  border-radius: 5px;
+  padding: 10px;
+}
+.move-top{
+  top: -60px !important;
+}
+
+.card-mid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-rounded {
+  border-radius: 2em;
+}
+
+.back-card {
+  border-radius: 40px !important;
+}
+
+.city-name {
+  position: absolute;
+  width: 100%;
+}
+
+.city-name p {
+  font-size: 12pt;
+  background-color: rgb(8, 10, 117);
+  font-weight: bold;
+  color: white;
+  margin-left: 34.5vw;
+  margin-right: 34.5vw;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.city-name span {
+  font-size: 10pt;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  background-color: #eceaea;
+  color: black;
+  padding: 2px;
+  border-radius: 5px;
+  top: -25px;
+}
+
+.temp span {
+  font-weight: 100;
+  font-size: 5em;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+
+.card-mid {
+  line-height: 0.5;
+}
+.col-text-center{
+  margin-right: 3vw;
+}
+.condition {
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: capitalize;
+}
+
+.high::before {
+  content: '';
+  background: url('img/up.svg') no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.low::before {
+  content: '';
+  background: url('img/down.svg') no-repeat;
+  width: 10px;
+  height: 15px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+label span{
+  font-weight: bold;
+  color: black !important;
+}
+.icon-container {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  margin-left: 42vw;
+  width: 100px;
+  height: 100px;
+  background: #202020;
+}
+.icon-container:hover{
+  transform: rotate(20deg);
+}
+.text-center{
+  margin-right: 3vw;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.icon-container img {
+  text-align: center;
+  object-fit: contain;
+}
+
+.card-bottom-temp{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.card-bottom span {
+  font-size: 12px;
+
+}
+
+.card-bottom p {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -2px;
+}
